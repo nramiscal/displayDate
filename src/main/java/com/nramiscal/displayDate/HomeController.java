@@ -6,6 +6,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
+
 @Controller
 public class HomeController {
 	Date date = new Date();
@@ -29,10 +30,3 @@ public class HomeController {
 	}
 }
 
-//Date today;
-//String strDate;
-//DateFormat dateFormat;
-//dateFormat = DateFormat
-//    .getDateInstance(DateFormat.LONG);
-//today = new Date();
-//strDate = dateFormat.format(today);
